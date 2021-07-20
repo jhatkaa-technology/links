@@ -35,8 +35,8 @@ body{
 }
 
 #links{
-    max-width: 675px;
-    width: auto;
+    max-width: 1200vw;
+    width: 90%;
     display: block;
     margin: 27px auto;
 }
