@@ -1,94 +1,37 @@
 <!DOCTYPE html>
+  <html>
+    <head>
+     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-<html>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
 
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <meta charset="UTF-8">
-   <meta property="og:title" content="Gns Tweet Deck" />
-   <!--<meta property="og:description" content="" />-->
-   <meta property="og:image"  content="https://jhatkaapages.github.io/profile.png" />
-       <!--<meta property="og:image:secure_url"  content="https:// "/>-->
-       <meta property="og:image:type" content="image/png" />
-       <meta name="twitter:card" content="summary_large_image" />
 
-	<title>WhatsApp Engagement</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="profile.png" type="image/x-icon"/>
+  
+  <a href="https://twitter.com/search?q=%22ENOUGH%20CHRIST%22&src=typed_query&f=live">
+  <h1 class="site-title site-title--large">
+    ENOUGH CHRIST
+  </h1>
+  </a>
 
-</head>
 
-<body>
-  <img id="userPhoto" src="profile.png" alt="User Photo">
-
-  <a href="https://wa.me/919868113891" id="userName">WhatsApp Engagement</a>
-
-      <div id="links">
+    <div id="links">
       <center>
-        <br>
-        <textarea class="fill-width" rows="4" cols="48" id="MessageToSend">This is sooo cooool!</textarea>
-        <br>
-      </center>
-      <!--<button onClick="generate()">Generate</button>-->
+         
 
 
-
-
-      <a class="link" id = "Generate"  onClick="generate()" target="_blank">Generate messages</a>
-      <br>
-      <a class="link" id = "Button1" href="" target="_blank">WhatsApp Nimisha</a>
-      <a class="link" id = "Button2" href="" target="_blank">WhatsApp Ishita</a>
-      <a class="link" id = "Button3" href="" target="_blank">WhatsApp Chiku</a>
-      <a class="link" id = "Button4" href="" target="_blank">WhatsApp Divya</a>
-      <a class="link" id = "Button5" href="" target="_blank">WhatsApp Rawtion</a>
-      <a class="link" id = "Button6" href="" target="_blank">WhatsApp Rashmi</a>
-
-
-</div>
-
-<script>
-
-
-function generate() {
-
-    var ContactNumber = [
-        '7760609014',
-        '9599700478',
-        '8670489998',
-        '9884521072',
-        '7709845504',
-        '8447233451'
-      ];
-      //MessageToSend = "Could you please give a quick shoutout to 'There Is No Earth B'?<br>instagram.com/thereisnoearthb<br>twitter.com/thereisnoearthb<br>t.me/thereisnoearthb";
-
-
-
-var ContactName  = [
-    'Nimisha',
-    'Ishita',
-    'Chiku',
-    'Divya',
-    'Rawtion',
-    'Rashmi'
-
-  ];
-  var i;
-  for (i = 1; i < 10 ; i+=1)
-       {
-         //document.getElementById("Button"+(i)).href = sites[i-1];
-         //=concatenate("https://wa.me/91",C2,"/?text=",ENCODEURL(I2))
-         const CompleteMessageToSend = "Hi "+ContactName[i-1]+"\n"+ document.getElementById("MessageToSend").value+"\n"+"In Solidarity"+"\n"+"Team Jhatkaa";
-        //const val = quote__textbox.value;
-         //console.log(encodeURIComponent(val));
-
-         //document.getElementById("Button"+(i)).href = "https://wa.me/91"+ContactNumber[i-1]+"/?text="+encodeURIComponent(CompleteMessageToSend);
-         document.getElementById("Button"+(i)).href = "https://wa.me/91"+ContactNumber[i-1]+"/?text="+(encodeURIComponent(CompleteMessageToSend));
-
-       }
-
-}
-</script>
-
-</body>
-<!--<body onload="generate();">-->
-
-</html>
+<div class="row">
+    <div class="">
+      
+     <div class="card white darken-1">
+        <div class="card-content black-text">
+          <span class="card-title">Tweet #1</span> <p>Fact 1 Fact 2 ENOUGH CHRIST</p> </div> <div class="card-action"> <a href="https://twitter.com/intent/tweet?text=ENOUGH%20CHRIST&related=thereisnoearthb" target="_blank">Tweet</a> </div> </div><div class="card white darken-1">
+        <div class="card-content black-text">
+          <span class="card-title">Tweet #2</span> <p>Fact 2 Fact 1 ENOUGH CHRIST</p> </div> <div class="card-action"> <a href="https://twitter.com/intent/tweet?text=ENOUGH%20CHRIST&related=thereisnoearthb" target="_blank">Tweet</a> </div> </div>
+      </body>
+    </html>
